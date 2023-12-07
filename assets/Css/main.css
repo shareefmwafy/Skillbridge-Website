@@ -235,3 +235,148 @@ a{
 
 
 
+
+.potential{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 100px 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    transition: all 0.6s;
+}
+
+
+
+.potential .top-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: var(--white-main);
+    padding: 20px;
+    position: relative;  
+    font-size: 25px;
+    gap: 10px;
+    transition: all 0.6s;
+    
+
+}
+.potential h1 span{
+    color: var(--main-color);
+}
+.potential .top-title .shams{
+    position: absolute;
+    left: -25px;
+    top: -25px;
+}
+.potential .top-title .barq{
+    background-color: #FFF4E5;
+    padding: 15px;
+    border-radius: 10px;
+}
+.potential h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    transition: all 0.6s;
+}
+.potential p{
+    transition: all 0.6s;
+}
+
+.potential .view-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.potential .view-content .course{
+    background-color: var(--main-color);
+    padding: 13px 20px;
+    color: var(--white-main);
+    border-radius: 10px;
+    transition: all 0.6s;
+
+}
+.potential .view-content .view{
+    padding: 13px 20px;
+    color: #262626;
+    background-color: var(--white-main);
+    border-radius: 10px;
+    transition: all 0.6s;
+}
+
+
+
+@media screen and (max-width:829px){
+    .potential{
+        
+        padding: 50px 0;
+        
+    }
+    .potential .top-title{
+        font-size: 12px;
+    }
+    .potential .top-title .barq{
+        padding: 7px;
+        border-radius: 7px;
+    }
+    
+
+    .potential h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .potential p{
+        font-size: 12px;
+    }
+    .potential .view-content .course{
+        font-size: 12px;
+    
+    }
+    .potential .view-content .view{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:480px){
+    .potential .top-title{
+        font-size: 9px;
+    }
+    .potential h2{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .potential p{
+        font-size: 9px;
+    }
+    .potential .view-content .course{
+        font-size: 9px;
+    
+    }
+    .potential .view-content .view{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:371px){
+    .potential .top-title{
+        font-size: 7px;
+    }
+    .potential h2{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .potential p{
+        font-size: 7px;
+    }
+    .potential .view-content .course{
+        font-size: 7px;
+    
+    }
+    .potential .view-content .view{
+        font-size: 7px;
+    }
+}
