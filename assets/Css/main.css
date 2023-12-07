@@ -23,6 +23,7 @@ a{
 .inner-container{
     margin:auto;
     width: calc(( 100% - 120px ));
+    /* background-color: aqua; */
 }
 .outer-container{
     margin:auto;
@@ -236,7 +237,7 @@ a{
 
 
 
-.potential{
+.potential .row{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,6 +251,7 @@ a{
 
 
 .potential .top-title{
+    /* margin: auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,6 +262,8 @@ a{
     font-size: 25px;
     gap: 10px;
     transition: all 0.6s;
+    /* width: 800px; */
+    
     
 
 }
@@ -280,9 +284,11 @@ a{
     font-size: 30px;
     margin-bottom: 10px;
     transition: all 0.6s;
+    text-align: center;
 }
 .potential p{
     transition: all 0.6s;
+    text-align: center;
 }
 
 .potential .view-content{
@@ -368,6 +374,8 @@ a{
     .potential h2{
         font-size: 12px;
         margin-bottom: 10px;
+        /* width: 60%; */
+        text-align: center;
     }
     .potential p{
         font-size: 7px;
@@ -380,3 +388,4 @@ a{
         font-size: 7px;
     }
 }
+
