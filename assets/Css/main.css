@@ -681,3 +681,96 @@ a {
         width: 100%;
     }
 }
+
+
+
+.courses{
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.courses .inner-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.courses .view-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.courses a{
+    padding: 10px 20px;
+    background-color: var(--white-main);
+    color: #262626;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    /* width: 120px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.courses p{
+    color: #818181;
+}
+.courses span{
+    color: #59595A;
+}
+.courses .course-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.courses .course-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    width: calc((100% - 40px )/ 2);
+    padding: 40px;
+    background-color: var(--white-main);
+    justify-content: center;
+    overflow: hidden;
+}
+
+.courses .course-card img{
+   height: 300px;
+   width: 100%;
+   object-fit: cover;
+   
+}
+.courses .course-card .card-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.courses .course-card .card-info .grow{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+}
+
+.courses .course-card a{
+    background-color: #F7F7F8;
+    border-radius: 8px;
+    color: #262626;
+    width: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .courses .course-card{
+        width: 100%;
+    }
+
+    .courses .course-card img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        
+     }
+}
