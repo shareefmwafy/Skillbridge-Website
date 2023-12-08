@@ -738,9 +738,10 @@ a {
 }
 
 .courses .course-card img{
-   height: 300px;
+   height: 400px;
    width: 100%;
    object-fit: cover;
+   border-radius: 10px;
    
 }
 .courses .course-card .card-info{
@@ -763,23 +764,62 @@ a {
     color: #262626;
     width: 100%;
 }
+@media screen and (max-width:1470px) {
 
-@media screen and (max-width:900px) {
+    .courses .course-card img{
+        height: 300px;
+        
+     }
+}
+@media screen and (max-width:1150px) {
+
+    .courses .course-card img{
+        height: 250px;
+        
+     }
+}
+
+@media screen and (max-width:1000px) {
     .courses .course-card{
         width: 100%;
     }
 
     .courses .course-card img{
+        height: 400px;
+     }
+}
+@media screen and (max-width:800px) {
+
+    .courses .course-card img{
         height: 300px;
-        width: 100%;
-        object-fit: cover;
         
      }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:630px) {
+
+    .courses .course-card img{
+        height: 240px;
+        
+     }
+}
+@media screen and (max-width:500px) {
 
     .courses .course-card img{
         height: 200px;
+        
+     }
+}
+@media screen and (max-width:444px) {
+
+    .courses .course-card img{
+        height: 150px;
+        
+     }
+}
+@media screen and (max-width:380px) {
+
+    .courses .course-card img{
+        height: 100px;
         
      }
 }
