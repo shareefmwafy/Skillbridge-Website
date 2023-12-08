@@ -684,15 +684,17 @@ a {
 
 
 
-.courses{
+.courses {
     font-family: "Be Vietnam Pro", sans-serif;
 }
-.courses .inner-container{
+
+.courses .inner-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.courses .view-content{
+
+.courses .view-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -700,7 +702,8 @@ a {
     margin-top: 20px;
     flex-wrap: wrap;
 }
-.courses a{
+
+.courses a {
     padding: 10px 20px;
     background-color: var(--white-main);
     color: #262626;
@@ -713,38 +716,42 @@ a {
     justify-content: center;
     align-items: center;
 }
-.courses p{
+
+.courses p {
     color: #818181;
 }
-.courses span{
+
+.courses span {
     color: #59595A;
 }
-.courses .course-cards{
+
+.courses .course-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
 
-.courses .course-card{
+.courses .course-card {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 15px;
-    width: calc((100% - 40px )/ 2);
+    width: calc((100% - 40px)/ 2);
     padding: 25px;
     background-color: var(--white-main);
     justify-content: center;
     overflow: hidden;
 }
 
-.courses .course-card img{
-   height: 400px;
-   width: 100%;
-   object-fit: cover;
-   border-radius: 10px;
-   
+.courses .course-card img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
 }
-.courses .course-card .card-info{
+
+.courses .course-card .card-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -752,74 +759,208 @@ a {
     /* padding: 0 40px; */
 
 }
-.courses .course-card .card-info .grow{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
+
+.courses .course-card .card-info .grow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-.courses .course-card a{
+.courses .course-card a {
     background-color: #F7F7F8;
     border-radius: 8px;
     color: #262626;
     width: 100%;
 }
+
 @media screen and (max-width:1470px) {
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 300px;
-        
-     }
+
+    }
 }
+
 @media screen and (max-width:1150px) {
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 250px;
-        
-     }
+
+    }
 }
 
 @media screen and (max-width:1000px) {
-    .courses .course-card{
+    .courses .course-card {
         width: 100%;
     }
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 400px;
-     }
+    }
 }
+
 @media screen and (max-width:800px) {
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 300px;
-        
-     }
+
+    }
 }
+
 @media screen and (max-width:630px) {
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 240px;
-        
-     }
+
+    }
 }
+
 @media screen and (max-width:500px) {
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 200px;
-        
-     }
+
+    }
 }
+
 @media screen and (max-width:444px) {
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 150px;
-        
-     }
+
+    }
 }
+
 @media screen and (max-width:380px) {
 
-    .courses .course-card img{
+    .courses .course-card img {
         height: 100px;
-        
-     }
+
+    }
+}
+
+.testimonials {
+    font-family: "Be Vietnam Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.testimonials .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonials p {
+    color: #818181;
+}
+
+.testimonials .view-content a {
+    padding: 10px 20px;
+    background-color: var(--white-main);
+    color: #262626;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.testimonials .testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.testimonials .testimonial-cards .testimonial-card {
+    width: calc((100% - 40px) / 2);
+    background-color: var(--white-main);
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+.testimonials .testimonial-cards .testimonial-card p {
+    padding: 40px;
+}
+
+.testimonials .testimonial-cards .testimonial-card .test-card-info {
+    background-color: #FCFCFD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.testimonials .testimonial-cards .testimonial-card .test-card-info a {
+    color: #262626;
+    background-color: #F7F7F8;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.testimonials .testimonial-cards .testimonial-card .test-card-info .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.testimonials .testimonial-cards .testimonial-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+@media screen and (max-width:990px) {
+    .testimonials .testimonial-cards .testimonial-card {
+        width: 100%;
+
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .testimonials .testimonial-cards .testimonial-card .test-card-info a {
+        padding: 5px 15px;
+        font-size: 8px;
+    }
+
+    .testimonials .testimonial-cards .testimonial-card img {
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+        border-radius: 10px;
+
+    }
+
+    .testimonials .testimonial-cards .testimonial-card p {
+        font-size: 14px;
+    }
+
+    .testimonials .testimonial-cards .testimonial-card .test-card-info .content {
+        font-size: 9px;
+        gap: 5px;
+
+    }
 }
