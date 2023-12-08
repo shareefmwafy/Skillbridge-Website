@@ -557,11 +557,17 @@ a {
     background-color: rgba(55, 55, 55, 0.2);
     /* border: 6px solid rgba(55, 55, 55, 0.2); */
 }
+@media screen and (max-width: 1188px) {
+    .main-image .inner-container {
+        background-size: cover;
+        height: 480px;
+    }
+}
 
 @media screen and (max-width: 1089px) {
     .main-image .inner-container {
         background-size: cover;
-        height: 500px;
+        height: 430px;
     }
 }
 
@@ -583,9 +589,9 @@ a {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .main-image .inner-container {
-        height: 200px;
+        height: 180px;
     }
 }
 
@@ -962,5 +968,278 @@ a {
         font-size: 9px;
         gap: 5px;
 
+    }
+}
+
+.pricing{
+    font-family: "Be Vietnam Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.pricing .plans{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.pricing .content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pricing .content p{
+    color: #818181;
+}
+.pricing .content .buttons{
+    display: flex;
+    margin-top: 10px;
+    background-color: var(--white-main);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.pricing .content .buttons .monthly{
+    display: flex;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: var(--white-main);
+}
+.pricing .content .buttons .yearly{
+    display: flex;
+    padding: 10px 20px;
+    color: #262626;
+    background-color: var(--white-main);
+
+}
+
+
+.pricing .plans{
+    display: flex;
+    padding: 40px 30px;
+    background-color: var(--white-main);
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.pricing .plans .free-plan, .pro-plan{
+    background-color: #FCFCFD;
+    width: calc( ( 100% - 40px ) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;  
+}
+
+.pricing .plans .free-plan .plan-span, .pro-plan .plan-span{
+   background-color: #FFF9F0;
+   width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 0;
+   color: #262626;
+}
+.pricing .plans .free-plan .title, .pro-plan .title{
+    display: flex;
+    
+}
+.pricing .plans .free-plan .title h2, .pro-plan .title h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pricing .plans .free-plan .title span, .pro-plan .title span{
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pricing .plans .free-plan .features, .pro-plan .features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--white-main);
+    padding: 40px;
+    width: 90%;
+    border: 1px solid  #F1F1F3;
+    border-radius: 10px;
+}
+.pricing .plans .free-plan .features .feature-title, .pro-plan .features .feature-title{
+    text-align: center;
+}
+.pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+.pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    width: 100%;
+    border: 1px solid var(--white-95, #F1F1F3);
+    /* font-size: 12px; */
+    /* background-color: red; */
+    transition: all 0.6s;
+
+}
+.pricing .plans .free-plan .features .features-list div img, .pro-plan .features .features-list div img{
+    background-color: #FFF4E5;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    transition: all 0.6s;
+
+}
+.pricing .plans .free-plan a, .pro-plan a{
+    background-color: var(--main-color);
+    padding: 10px 0;
+    width: 90%;
+    color: var(--white-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+@media screen and (max-width:1157px) {
+    .pricing .plans .free-plan{
+        width: 100%;
+    }
+    .pricing .plans .pro-plan{
+        width: 100%;
+    }
+    .pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+        gap: 16px;
+    }
+}
+@media screen and (max-width:649px) {
+    .pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
+        font-size: 10px;
+        padding: 8px 16px;
+        gap: 14px;
+    }
+    .pricing .plans .free-plan .features .features-list div img, .pro-plan .features .features-list div img{
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+    
+    }
+    .pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+        gap: 14px;
+    }
+    .pricing .plans{
+        gap: 35px;
+    }
+}
+@media screen and (max-width:532px) {
+    .pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
+        font-size: 8px;
+        padding: 5px 12px;
+        gap: 13px;
+
+    }
+    .pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+        gap: 12px;
+    }
+    .pricing .plans{
+        gap: 25px;
+    }
+    
+}
+@media screen and (max-width:497px) {
+    .pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
+        font-size: 5px;
+        padding: 3px 10px;
+        gap: 12px;
+    
+    }
+    .pricing .plans .free-plan .features .features-list div img, .pro-plan .features .features-list div img{
+        width: 15px;
+        height: 15px;
+        border-radius: 3px;
+    }
+    .pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+        gap: 10px;
+    }
+    .pricing .plans{
+        gap: 15px;
+    }
+}
+@media screen and (max-width:421px) {
+    .pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
+        font-size: 4px;
+        padding: 1px 4px;
+        gap: 11px;
+
+    
+    }
+    .pricing .plans .free-plan .features .features-list div img, .pro-plan .features .features-list div img{
+        width: 13px;
+        height: 13px;
+        border-radius: 1px;
+    }
+    .pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+        gap: 8px;
+    }
+    .pricing .plans{
+        gap: 10px;
+    }
+}
+@media screen and (max-width:356px) {
+    .pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
+        font-size: 4px;
+        padding: 6px 4px;
+        width: 100%;
+        height: 6px;
+        gap: 3px;
+
+    
+    }
+    .pricing .plans .free-plan .features .features-list div img, .pro-plan .features .features-list div img{
+        width: 12px;
+        height: 12px;
+        border-radius: 1px;
+    }
+    .pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+        gap: 6px;
+    }
+    .pricing .plans{
+        gap: 6px;
+    }
+}
+@media screen and (max-width:327px) {
+    .pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
+        font-size: 2px;
+        padding: 6px 4px;
+        width: 100%;
+        height: 6px;
+        gap: 3px;
+
+    
+    }
+    .pricing .plans .free-plan .features .features-list div img, .pro-plan .features .features-list div img{
+        width: 12px;
+        height: 12px;
+        border-radius: 1px;
+    }
+    .pricing .plans .free-plan .features .features-list, .pro-plan .features .features-list{
+        gap: 4px;
+    }
+    .pricing .plans{
+        gap: 5px;
     }
 }
