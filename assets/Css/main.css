@@ -564,29 +564,75 @@ a {
     }
 }
 
-.main-image .inner-container {
-    margin-top: 50px;
-    height: fit-content;
-
-}
-
-.main-image .inner-container img {
-    width: 100%;
-    height: 750px;
-
+.main-image .inner-container{
+    
+    /* background-image: url("../images/main-image.png"); */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../images/main-image.png"), lightgray 50% / cover no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
-    object-fit: cover;
+}
+.main-image .inner-container div{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 6px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+.main-image .inner-container:hover div {
+    background-color: rgba(55, 55, 55, 0.2);
+    /* border: 6px solid rgba(55, 55, 55, 0.2); */
 }
 
-@media screen and (max-width:1249px) {
-    .main-image .inner-container img {
-        width: 100%;
-        height: 100%;
+@media screen and (max-width:1089px) {
+    .main-image .inner-container  {
+        background-size: cover;
+        height: 500px;
     }
 
-    .main-image .inner-container {
-        margin-top: 10px;
-        height: fit-content;
-
+    
+}
+@media screen and (max-width:872px) {
+    .main-image .inner-container  {
+        height: 400px;
     }
+
+    
+}
+@media screen and (max-width:650px) {
+    .main-image .inner-container  {
+        height: 300px;
+    }
+
+    
+}
+@media screen and (max-width:520px) {
+    .main-image .inner-container  {
+        height: 270px;
+    }
+
+    
+}
+@media screen and (max-width:420px) {
+    .main-image .inner-container  {
+        height: 200px;
+    }
+
+    
+}
+@media screen and (max-width:360px) {
+    .main-image .inner-container  {
+        height: 160px;
+    }
+
+    
 }
