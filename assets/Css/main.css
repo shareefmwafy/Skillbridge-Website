@@ -748,6 +748,7 @@ a {
   background-color: var(--white-main);
   justify-content: center;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .courses .course-card img {
@@ -951,11 +952,14 @@ a {
   flex-direction: column;
   margin-top: 20px;
   justify-content: center;
+  
 }
+
 
 .pricing .plans {
   display: flex;
   /* flex-wrap: wrap; */
+  border-radius: 10px;
 }
 
 .pricing .content {
@@ -1276,7 +1280,6 @@ a {
     gap: 5px;
   }
 }
-
 .questions .inner-container {
   display: flex;
   margin-top: 50px;
@@ -1285,6 +1288,7 @@ a {
   gap: 20px;
   font-family: "Be Vietnam Pro", sans-serif;
   justify-content: center;
+  border-radius: 10px;
   /* flex-wrap: wrap; */
 }
 
