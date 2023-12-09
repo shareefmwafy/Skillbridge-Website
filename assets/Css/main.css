@@ -1198,6 +1198,13 @@ a {
     .pricing .plans{
         gap: 10px;
     }
+    .pricing .content .buttons{
+        
+        padding: 6px 12px;
+        font-size: 10px;
+        margin: auto;
+        margin-top: 10px;
+    }
 }
 @media screen and (max-width:356px) {
     .pricing .plans .free-plan .features .features-list div, .pro-plan .features .features-list div{
