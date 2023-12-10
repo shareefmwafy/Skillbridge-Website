@@ -542,6 +542,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  transition: all 0.6s;
 }
 
 .main-image .inner-container div {
@@ -576,31 +577,31 @@ a {
 
 @media screen and (max-width: 872px) {
   .main-image .inner-container {
-    height: 400px;
+    height: 350px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .main-image .inner-container {
-    height: 300px;
+    height: 250px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .main-image .inner-container {
-    height: 270px;
+    height: 220px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .main-image .inner-container {
-    height: 180px;
+    height: 140px;
   }
 }
 
 @media screen and (max-width: 360px) {
   .main-image .inner-container {
-    height: 160px;
+    height: 100px;
   }
 }
 
@@ -630,6 +631,7 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 10px 0;
+ 
 }
 
 .benefits .inner-container .row p {
