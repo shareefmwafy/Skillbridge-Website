@@ -1101,6 +1101,12 @@ a {
   height: 30px;
   transition: all 0.6s;
 }
+.pricing .plans .free-plan .features .features-list div .ex,
+.pro-plan .features .features-list div .ex{
+  background-color: transparent;
+
+}
+
 
 .pricing .plans .free-plan a,
 .pro-plan a {
@@ -1132,15 +1138,15 @@ a {
 @media screen and (max-width: 649px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 10px;
+    font-size: 16px;
     padding: 8px 16px;
     gap: 14px;
   }
 
   .pricing .plans .free-plan .features .features-list div img,
   .pro-plan .features .features-list div img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 5px;
   }
 
@@ -1157,7 +1163,7 @@ a {
 @media screen and (max-width: 532px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 8px;
+    font-size: 10px;
     padding: 5px 12px;
     gap: 13px;
   }
@@ -1170,20 +1176,27 @@ a {
   .pricing .plans {
     gap: 25px;
   }
+  .pricing .plans .free-plan .features .features-list div img,
+  .pro-plan .features .features-list div img {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+  }
 }
 
 @media screen and (max-width: 497px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 5px;
+    font-size: 10px;
     padding: 3px 10px;
     gap: 12px;
+    width: 120%;
   }
 
   .pricing .plans .free-plan .features .features-list div img,
   .pro-plan .features .features-list div img {
-    width: 15px;
-    height: 15px;
+    width: 22px;
+    height: 22px;
     border-radius: 3px;
   }
 
@@ -1200,15 +1213,16 @@ a {
 @media screen and (max-width: 421px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 4px;
-    padding: 1px 4px;
+    font-size: 9px;
+    padding: 5px 15px;
     gap: 11px;
+    width: 150%;
   }
 
   .pricing .plans .free-plan .features .features-list div img,
   .pro-plan .features .features-list div img {
-    width: 13px;
-    height: 13px;
+    width: 20px;
+    height: 20px;
     border-radius: 1px;
   }
 
@@ -1232,17 +1246,17 @@ a {
 @media screen and (max-width: 356px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 4px;
-    padding: 6px 4px;
-    width: 100%;
+    font-size: 8px;
+    padding: 25px 20px;
+    width: 160%;
     height: 6px;
-    gap: 3px;
+    gap: 10px;
   }
 
   .pricing .plans .free-plan .features .features-list div img,
   .pro-plan .features .features-list div img {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
     border-radius: 1px;
   }
 
@@ -1259,17 +1273,17 @@ a {
 @media screen and (max-width: 327px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 2px;
-    padding: 6px 4px;
-    width: 100%;
+    font-size: 6px;
+    /* padding: 6px 4px; */
+    width: 150%;
     height: 6px;
-    gap: 3px;
+    gap: 10px;
   }
 
   .pricing .plans .free-plan .features .features-list div img,
   .pro-plan .features .features-list div img {
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     border-radius: 1px;
   }
 
