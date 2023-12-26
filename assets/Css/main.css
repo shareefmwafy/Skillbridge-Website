@@ -30,6 +30,7 @@ a {
   margin: auto;
   width: calc((100% - 120px));
   /* background-color: aqua; */
+  max-width: 2000px;
 }
 
 .outer-container {
