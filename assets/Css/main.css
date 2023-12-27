@@ -1085,7 +1085,7 @@ a {
 .pricing .plans .free-plan .features .features-list div,
 .pro-plan .features .features-list div {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 10px 15px;
   gap: 15px;
@@ -1250,7 +1250,7 @@ a {
 @media screen and (max-width: 356px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 8px;
+    font-size: 6px;
     padding: 25px 20px;
     width: 160%;
     height: 6px;
@@ -1266,7 +1266,7 @@ a {
 
   .pricing .plans .free-plan .features .features-list,
   .pro-plan .features .features-list {
-    gap: 6px;
+    gap: 4px;
   }
 
   .pricing .plans {
@@ -1274,26 +1274,28 @@ a {
   }
 }
 
-@media screen and (max-width: 327px) {
+@media screen and (max-width: 329px) {
   .pricing .plans .free-plan .features .features-list div,
   .pro-plan .features .features-list div {
-    font-size: 6px;
+    font-size: 5px;
     /* padding: 6px 4px; */
-    width: 150%;
+    width: 190%;
     height: 6px;
     gap: 10px;
+    justify-content: flex-start;
+   
   }
 
   .pricing .plans .free-plan .features .features-list div img,
   .pro-plan .features .features-list div img {
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border-radius: 1px;
   }
 
   .pricing .plans .free-plan .features .features-list,
   .pro-plan .features .features-list {
-    gap: 4px;
+    gap: 2px;
   }
 
   .pricing .plans {
