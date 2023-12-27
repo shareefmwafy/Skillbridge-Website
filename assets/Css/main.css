@@ -1283,7 +1283,7 @@ a {
     height: 6px;
     gap: 10px;
     justify-content: flex-start;
-   
+    transition: all 0.6s;
   }
 
   .pricing .plans .free-plan .features .features-list div img,
@@ -1291,6 +1291,7 @@ a {
     width: 15px;
     height: 15px;
     border-radius: 1px;
+    
   }
 
   .pricing .plans .free-plan .features .features-list,
