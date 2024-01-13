@@ -759,7 +759,7 @@ a {
   width: calc((100% - 40px) / 2);
   padding: 25px;
   background-color: var(--white-main);
-  justify-content: center;
+  justify-content: space-between;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -895,8 +895,10 @@ a {
   /* padding: 40px; */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 20px;
   border-radius: 10px;
+  position: relative;
 }
 
 .testimonials .testimonial-cards .testimonial-card p {
@@ -911,6 +913,8 @@ a {
   border-radius: 0px 0px 10px 10px;
   padding: 20px 0;
   flex-wrap: wrap;
+  position: relative;
+  bottom: 0;
 }
 
 .testimonials .testimonial-cards .testimonial-card .test-card-info a {
