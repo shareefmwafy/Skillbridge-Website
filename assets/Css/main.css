@@ -523,7 +523,6 @@ a {
 }
 
 .main-image .inner-container {
-  /* background-image: url("../images/main-image.png"); */
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
@@ -557,7 +556,18 @@ a {
   background-color: rgba(55, 55, 55, 0.2);
   /* border: 6px solid rgba(55, 55, 55, 0.2); */
 }
-
+@media screen and (max-width: 1600px) {
+  .main-image .inner-container {
+    background-size: cover;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .main-image .inner-container {
+    background-size: cover;
+    height: 600px;
+  }
+}
 @media screen and (max-width: 1188px) {
   .main-image .inner-container {
     background-size: cover;
