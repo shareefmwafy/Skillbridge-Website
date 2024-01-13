@@ -793,6 +793,7 @@ a {
 }
 .courses .course-card a:hover {
   background-color: var(--main-color);
+  color:white
 
 }
 
@@ -903,7 +904,7 @@ a {
 }
 
 .testimonials .testimonial-cards .testimonial-card .test-card-info {
-  background-color: #fcfcfd;
+  background-color: #eeeeee;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -914,10 +915,14 @@ a {
 
 .testimonials .testimonial-cards .testimonial-card .test-card-info a {
   color: #262626;
-  background-color: #f7f7f8;
+  background-color: #f7f8f8;
   padding: 10px 40px;
   border-radius: 5px;
   margin-top: 10px;
+}
+.testimonials .testimonial-cards .testimonial-card .test-card-info a:hover {
+  color: white;
+  background-color:var(--main-color);
 }
 
 .testimonials .testimonial-cards .testimonial-card .test-card-info .content {
