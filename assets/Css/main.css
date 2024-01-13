@@ -1567,8 +1567,13 @@ footer .copyright{
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    color: #656567;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+footer .copyright p span{
+    color: #f61f18;
+}
+
 
 @media screen and (max-width:996px) {
     footer .above-foot{
