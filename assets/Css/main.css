@@ -7,7 +7,8 @@
 }
 
 :root {
-  --main-color: #ff9500;
+  /* --main-color: #ff9500; */
+  --main-color: #006AC5;
   --white-main: #fff;
   --bg-color: #f7f7f8;
 }
@@ -165,7 +166,7 @@ a {
 }
 
 .second-header .inner-container nav .burger-icon ul {
-  background-color: #ff9500;
+  background-color: var(--main-color);
   /* padding: 5px; */
   /* border-bottom: 1px solid rgb(109, 104, 104) ; */
   text-align: center;
@@ -334,7 +335,7 @@ a {
 }
 
 .potential .top-title .barq {
-  background-color: #fff4e5;
+  background-color: #e4ecfb;
   padding: 15px;
   border-radius: 10px;
 }
@@ -781,7 +782,7 @@ a {
   width: 100%;
 }
 .courses .course-card a:hover {
-  background-color: #ff9500;
+  background-color: var(--main-color);
 
 }
 
@@ -1024,7 +1025,7 @@ a {
 
 .pricing .plans .free-plan .plan-span,
 .pro-plan .plan-span {
-  background-color: #fff9f0;
+  background-color: #e5edf9;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -1098,7 +1099,7 @@ a {
 
 .pricing .plans .free-plan .features .features-list div img,
 .pro-plan .features .features-list div img {
-  background-color: #fff4e5;
+  background-color: #dfe6f5;
   padding: 5px;
   border-radius: 10px;
   width: 30px;
@@ -1358,7 +1359,7 @@ a {
 }
 
 .questions .question-list .q-top img {
-  background-color: #fff4e5;
+  background-color: #dfe6f5;
   padding: 5px;
   border-radius: 4px;
 }
@@ -1388,7 +1389,7 @@ a {
 }
 
 .questions .question-list .question img {
-  background-color: #fff4e5;
+  background-color: #dfe6f5;
   border-radius: 4px;
 }
 
@@ -1503,7 +1504,7 @@ footer .above-foot .contact{
     gap: 12px;
 }
 footer .above-foot .contact .logo{
-    background-color: #ff9500;
+    background-color: var(--main-color);
     width: 45px;
     border-radius: 10px;
     
