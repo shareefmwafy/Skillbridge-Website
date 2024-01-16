@@ -1548,6 +1548,9 @@ footer .above-foot .company-info ul{
     flex-direction: column;
     gap: 20px;
 }
+footer .above-foot .company-info ul li:hover{
+  color: var(--main-color);
+}
 footer .above-foot .company-info .content-view{
    display: flex;
    flex-direction: column;
@@ -1561,6 +1564,15 @@ footer .above-foot .company-info .content-view div img{
    background-color: #F7F7F8;
    padding: 8px;
    border-radius: 8px;
+}
+footer .above-foot .company-info .content-view div .facebook-icon:hover{
+  background-color: #1877f2;
+}
+footer .above-foot .company-info .content-view div .twitter-icon:hover{
+  background-color: #1da1f2;
+}
+footer .above-foot .company-info .content-view div .linkedin-icon:hover{
+  background-color: #0a66c2;
 }
 
 .actice{
@@ -1579,15 +1591,7 @@ footer .copyright p span{
 }
 
 
-footer .above-foot .company-info .content-view div .facebook-icon:hover{
-  background-color: #1877f2;
-}
-footer .above-foot .company-info .content-view div .twitter-icon:hover{
-  background-color: #1da1f2;
-}
-footer .above-foot .company-info .content-view div .linkedin-icon:hover{
-  background-color: #0a66c2;
-}
+
 
 @media screen and (max-width:996px) {
     footer .above-foot{
