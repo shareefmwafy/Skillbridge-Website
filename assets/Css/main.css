@@ -375,6 +375,8 @@ a {
   background-color: var(--white-main);
   border-radius: 10px;
   transition: all 0.6s;
+  
+  
 }
 
 @media screen and (max-width: 829px) {
@@ -663,10 +665,12 @@ a {
   gap: 20px;
   border-radius: 10px;
   transition: all 0.6s;
+  /* border: 2px solid var(--main-color); */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .benefits .card:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .benefits .card h2 {
@@ -1562,6 +1566,7 @@ footer .above-foot .company-info .content-view{
 footer .above-foot .company-info .content-view div{
    display: flex;
    gap: 20px;
+   
 }
 footer .above-foot .company-info .content-view div img{
    background-color: #F7F7F8;
